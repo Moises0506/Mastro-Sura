@@ -1,4 +1,4 @@
 # Mastro-Sura
-Proyecto Delta Matro Sura
-Esta es la primeta Version de Matro.
+Primera Version de Mastro
+Seguir indicaciones del Autor para mayor informacion.
 

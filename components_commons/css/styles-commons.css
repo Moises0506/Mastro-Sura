@@ -64,3 +64,14 @@ button{
 .labelsTab{
     color:#848484;
 }
+
+.bgcopy {
+        height: 38px;	
+        width: 220px;	
+        border-radius: 4px;
+        background-color: #F5F5F5;
+    }
+.shape {	
+    height: 18.33px;
+    width: 14.84px;
+}

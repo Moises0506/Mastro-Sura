@@ -237,7 +237,7 @@ td.link {
 }
 
 .bg-light {
-    background-color: #FBF5EF!important;
+    background-color: #F2F2F2!important;
 }
 
 .list-group-item-action {
@@ -377,4 +377,27 @@ tr{
 .style-FactaNacCiud{
     color: gray;
     font-size: 20px;
+}
+
+#style-Buttons-search{
+    position: relative;
+    height: 30px;
+    margin:auto;
+    top: 3px;
+    font-size: 13px; 
+    padding-top: 0.5%;    
+}
+
+/*Estilos Header Filtros de busqueda*/
+#style-filters-search{
+    border: 0px;
+    background: #F2F2F2; 
+    color: gray; 
+    font-family: Arial, Helvetica;
+}
+
+/*Estilos de Card por Taps*/
+.styles-card-taps{
+    height:50px; 
+    background: #F2F2F2;
 }

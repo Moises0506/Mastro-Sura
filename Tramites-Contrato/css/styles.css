@@ -248,7 +248,7 @@ td.link {
 }
 
 a.bg-light:focus, a.bg-light:hover, button.bg-light:focus, button.bg-light:hover {
-    background-color: #E6FF00!important;
+    background-color: #E6E6E6!important;
     cursor: default;
 }
 

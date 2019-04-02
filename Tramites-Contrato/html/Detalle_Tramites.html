@@ -240,14 +240,18 @@
                                                                             </div>
                                                                         </div>
                                                                         <div class="col-sm-3">
-                                                                            <div class="form-group">
+                                                                            <div class="dropdown">
                                                                                 <label class="labels-styles"
-                                                                                    for="Nacionalidad">Nacionalidad</label>
-                                                                                <input type="text"
-                                                                                    class="form-control form-control-sm iputs-styles"
-                                                                                    placeholder="Nacionalidad" id=""
-                                                                                    readonly>
-                                                                            </div>
+                                                                                    for="Tipo_Nacionalidad_Id">Tipo Nacionalidad</label>
+                                                                                <div class="form-group">
+                                                                                    <select
+                                                                                        class="form-control form-control-sm iputs-styles"
+                                                                                        id="" readonly>
+                                                                                        <option>Nacionalidad1</option>
+                                                                                        <option>Nacionalidad1</option>
+                                                                                    </select>
+                                                                                </div>
+                                                                            </div>                                                                           
                                                                         </div>                                                                                                                                                
                                                                     </div>                                                                    
                                                                     <div class="row">                                                                           
@@ -270,21 +274,16 @@
                                                                             </div>
                                                                         </div>
                                                                         <div class="col-sm-3">
-                                                                            <div class="dropdown">
-                                                                                    <label class="labels-styles"
-                                                                                        for="Estado_Id">Estado de
-                                                                                        Nacimiento</label>
-                                                                                    <div class="form-group">
-                                                                                        <select
-                                                                                            class="form-control form-control-sm iputs-styles"
-                                                                                            id="" readonly>
-                                                                                            <option>Guanajuato</option>
-                                                                                            <option>Tlaxcala</option>
-                                                                                            <option>Colima</option>
-                                                                                        </select>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>                                                                            
+                                                                            <div class="form-group">
+                                                                                <label class="labels-styles"
+                                                                                    for="Estado">Estado de
+                                                                                    Nacimiento</label>
+                                                                                <input type="text"
+                                                                                    class="form-control form-control-sm iputs-styles"
+                                                                                    placeholder="Estado de Nacimiento" id=""
+                                                                                    readonly>
+                                                                            </div>                                                                           
+                                                                        </div>                                                                            
                                                                         <div class="col-sm-3">
                                                                                 <div class="form-group">
                                                                                     <label class="labels-styles"
@@ -652,7 +651,7 @@
                                                                                 <div class="form-group">
                                                                                     <label
                                                                                         for="actividad-negocio">Actividad
-                                                                                        ò giro de Negocio</label>
+                                                                                         de Negocio</label>
                                                                                     <div class="form-group">
                                                                                         <select
                                                                                             class="form-control form-control-sm"
@@ -667,14 +666,21 @@
                                                                             </div>
                                                                         </div>
                                                                         <div class="col-sm-3">
-                                                                            <div class="form-group">
-                                                                                <label for="origen-rec">Origen de
-                                                                                    Recursos</label>
-                                                                                <input type="text"
-                                                                                    class="form-control form-control-sm"
-                                                                                    placeholder="Origen Recurosos" id=""
-                                                                                    readonly>
-                                                                            </div>
+                                                                            <div class="dropdown">
+                                                                                <div class="form-group">
+                                                                                    <label
+                                                                                        for="actividad-negocio">Actividad
+                                                                                            de Negocio Otra</label>
+                                                                                    <div class="form-group">
+                                                                                        <select
+                                                                                            class="form-control form-control-sm"
+                                                                                            id="" readonly>
+                                                                                            <option>otra1</option>
+                                                                                            <option>otra1</option>
+                                                                                        </select>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>                                                                      
                                                                         </div>
                                                                     </div>
                                                                     <div class="row">
@@ -693,19 +699,15 @@
                                                                                 </div>
                                                                             </div>
                                                                         </div>
-                                                                        <div class="col-sm-3">                                                                            
+                                                                        <div class="col-sm-3"> 
                                                                             <div class="dropdown">
                                                                                 <div class="form-group">
                                                                                     <label for="Ocupacion_Otra">Ocupación Otra</label>
-                                                                                    <div class="form-group">
-                                                                                        <select
-                                                                                            class="form-control form-control-sm"
-                                                                                            id="" readonly>
-                                                                                            <option>Otra 1</option>
-                                                                                            <option>Otra 2</option>                                                                                                
-                                                                                        </select>
-                                                                                    </div>
-                                                                                </div>
+                                                                                    <input type="text"
+                                                                                        class="form-control form-control-sm"
+                                                                                        placeholder="Ocupación Otra"
+                                                                                        id="c" readonly>
+                                                                                </div>                                                                                
                                                                             </div>                                                                            
                                                                         </div>
                                                                         <div class="col-sm-3">                                                                            
@@ -723,21 +725,22 @@
                                                                                 </div>
                                                                             </div>                                                                            
                                                                         </div>                                                                        
-                                                                            <div class="col-sm-3">
-                                                                                <div class="dropdown">
+                                                                        <div class="col-sm-3">
+                                                                            <div class="dropdown">
+                                                                                <div class="form-group">
+                                                                                    <label for="Origen_Recursos_Id">Origen de
+                                                                                            Recursos</label>
                                                                                     <div class="form-group">
-                                                                                        <label for="Moneda_Id">Moneda</label>
-                                                                                        <div class="form-group">
-                                                                                            <select
-                                                                                                class="form-control form-control-sm"
-                                                                                                id="" readonly>
-                                                                                                <option>USD</option>
-                                                                                                <option>MXD</option>                                                                                                
-                                                                                            </select>
-                                                                                        </div>
+                                                                                        <select
+                                                                                            class="form-control form-control-sm"
+                                                                                            id="" readonly>
+                                                                                            <option>Origen1</option>
+                                                                                            <option>Origen2</option>                                                                                                
+                                                                                        </select>
                                                                                     </div>
                                                                                 </div>
-                                                                            </div> 
+                                                                            </div>    
+                                                                        </div> 
                                                                     </div>                                                                       
 
                                                                     <div class="row">
@@ -834,7 +837,22 @@
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
-                                                                        </div>                                                                       
+                                                                        </div>
+                                                                        <div class="col-sm-3">
+                                                                            <div class="dropdown">
+                                                                                <div class="form-group">
+                                                                                    <label for="Moneda_Id">Moneda</label>
+                                                                                    <div class="form-group">
+                                                                                        <select
+                                                                                            class="form-control form-control-sm"
+                                                                                            id="" readonly>
+                                                                                            <option>USD</option>
+                                                                                            <option>MXD</option>                                                                                                
+                                                                                        </select>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>                                                                     
                                                                     </div><br>
                                                                     <div class="row">
                                                                         <div class="col-sm-4">
@@ -866,8 +884,35 @@
                                                                                 </div>
                                                                             </div>
                                                                         </div>
-                                                                        <div class="col-sm-3">
-                                                                            <label for="Nombre Completo">Actividad
+                                                                        <div class="col-sm-5">
+                                                                                <label for="Nombre Completo">Persona
+                                                                                        Politìcamente Expuesta o Relaciòn con
+                                                                                        alguna</label>
+                                                                                    <div class="form-group row">
+                                                                                        <div class="col-sm-10">
+                                                                                            <div
+                                                                                                class="form-check form-check-inline">
+                                                                                                <input class="form-check-input"
+                                                                                                    type="radio"
+                                                                                                    name="inlineRadioOptions"
+                                                                                                    id="" value="option1"
+                                                                                                    readonly>
+                                                                                                <label class="form-check-label"
+                                                                                                    for="inlineRadio3">SI</label>
+                                                                                            </div>
+                                                                                            <div
+                                                                                                class="form-check form-check-inline">
+                                                                                                <input class="form-check-input"
+                                                                                                    type="radio"
+                                                                                                    name="inlineRadioOptions"
+                                                                                                    id="" value="option2"
+                                                                                                    readonly>
+                                                                                                <label class="form-check-label"
+                                                                                                    for="inlineRadio4">NO</label>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                            <!--label for="Nombre Completo">Actividad
                                                                                 Vulnerable</label>
                                                                             <div class="form-group row">
                                                                                 <div class="col-sm-10">
@@ -892,37 +937,11 @@
                                                                                             for="">NO</label>
                                                                                     </div>
                                                                                 </div>
-                                                                            </div>
+                                                                            </div-->
                                                                         </div>
-                                                                        <div class="col-sm-5">
-                                                                                <label for="Nombre Completo">Persona
-                                                                                    Politìcamente Expuesta o Relaciòn con
-                                                                                    alguna</label>
-                                                                                <div class="form-group row">
-                                                                                    <div class="col-sm-10">
-                                                                                        <div
-                                                                                            class="form-check form-check-inline">
-                                                                                            <input class="form-check-input"
-                                                                                                type="radio"
-                                                                                                name="inlineRadioOptions"
-                                                                                                id="" value="option1"
-                                                                                                readonly>
-                                                                                            <label class="form-check-label"
-                                                                                                for="inlineRadio3">SI</label>
-                                                                                        </div>
-                                                                                        <div
-                                                                                            class="form-check form-check-inline">
-                                                                                            <input class="form-check-input"
-                                                                                                type="radio"
-                                                                                                name="inlineRadioOptions"
-                                                                                                id="" value="option2"
-                                                                                                readonly>
-                                                                                            <label class="form-check-label"
-                                                                                                for="inlineRadio4">NO</label>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
+                                                                        <div class="col-sm-3">
+                                                                               
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -1010,7 +1029,7 @@
                                                                         <div class="col-sm-3">
                                                                             <div class="dropdown">
                                                                                 <div class="form-group">
-                                                                                    <label for="entidad">Entidad</label>
+                                                                                    <label for="Estado">Estado</label>
                                                                                     <div class="form-group">
                                                                                         <select
                                                                                             class="form-control form-control-sm"
@@ -1183,7 +1202,7 @@
                                                                         <div class="col-sm-3">
                                                                             <div class="dropdown">
                                                                                 <div class="form-group">
-                                                                                    <label for="entidad">Entidad</label>
+                                                                                    <label for="Estado">Estado</label>
                                                                                     <div class="form-group">
                                                                                         <select
                                                                                             class="form-control form-control-sm"
@@ -1291,7 +1310,7 @@
                                                                         <div class="col-sm-3"
                                                                             style="text-align: center">
                                                                             <div class="form-group">
-                                                                                <label for="nacion-extra">No tiene
+                                                                                <label for="nacion-extra">Tiene
                                                                                     FIEL</label>
                                                                                 <div class="checkbox">
                                                                                     <label><input type="checkbox"
@@ -1965,7 +1984,7 @@
                                                                     Información de Inversión General
                                                                 </div>
                                                                 <div class="card-body">
-                                                                    <h5>Cuenta Custodio</h5>
+                                                                    <h5 class="style_Color_Secction">Cuenta Custodio</h5>
                                                                     <div class="row">
                                                                         <div class="col-sm-3">
                                                                             <div class="form-group">
@@ -2012,7 +2031,7 @@
                                                                     <div class="row">
                                                                         <div class="col-sm-3">
                                                                             <div class="form-group">
-                                                                                <label for="alias">Alias</label>
+                                                                                <label for="alias">Alias de Cuenta</label>
                                                                                 <input type="text"
                                                                                     class="form-control form-control-sm"
                                                                                     placeholder="Alias" id="" readonly>
@@ -2040,7 +2059,7 @@
                                                                         </div>
                                                                     </div>
                                                                     <hr>
-                                                                    <h5>Contrato de Servicio</h5>
+                                                                    <h5 class="style_Color_Secction">Servicio</h5>
                                                                     <div class="row">
                                                                         <div class="col-sm-3">
                                                                             <div class="dropdown">
@@ -2100,7 +2119,7 @@
 
                                                                     </div>
                                                                     <hr>
-                                                                    <h5>Contrato Benchmark</h5>
+                                                                    <h5 class="style_Color_Secction">Benchmark</h5>
                                                                     <div class="row">
                                                                         <div class="col-sm-3">
                                                                             <div class="dropdown">
@@ -2120,7 +2139,7 @@
                                                                         </div>
                                                                     </div>
                                                                     <hr>
-                                                                    <h5>Contrato Honorario</h5>
+                                                                    <h5 class="style_Color_Secction">Honorario</h5>
                                                                     <div class="row">
                                                                         <div class="col-sm-3">
                                                                             <div class="dropdown">
@@ -2137,7 +2156,18 @@
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
-
+                                                                        </div>
+                                                                        <div class="col-sm-3">
+                                                                            <div class="form-group row">
+                                                                                <div class="col">
+                                                                                    <label class="labels-styles"
+                                                                                        for="CH_Honorario_Autorizador">Honorario Autorizador</label>
+                                                                                        <input type="text"
+                                                                                        class="form-control form-control-sm"
+                                                                                        placeholder="Honorario Autorizador"
+                                                                                        id="" readonly>
+                                                                                </div>
+                                                                            </div>
                                                                         </div>
                                                                     </div>
                                                                     <hr>
@@ -2180,8 +2210,7 @@
                                                                                     readonly>
                                                                             </div>
                                                                         </div>
-                                                                    </div>
-                                                                    <hr>
+                                                                    </div>                                                                
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -2194,7 +2223,7 @@
                                                                     Perfil Transaccionalidad
                                                                 </div>
                                                                 <div class="card-body">
-                                                                    <h5>Montos</h5>
+                                                                    <h5 class="style_Color_Secction">Montos</h5>
                                                                     <div class="row">
                                                                         <div class="col-sm-3">
                                                                             <div class="form-group">
@@ -2258,7 +2287,7 @@
                                                                         </div>
                                                                     </div>
                                                                     <hr>
-                                                                    <h5>Transacciones</h5>
+                                                                    <h5 class="style_Color_Secction">Transacciones</h5>
                                                                     <div class="row">
                                                                         <div class="col-sm-3">
                                                                             <div class="form-group">
@@ -2280,12 +2309,11 @@
                                                                                     id="" readonly>
                                                                             </div>
                                                                         </div>
-
                                                                     </div>
-                                                                    <hr>
+                                                                    
                                                                 </div>
                                                             </div> <br>
-                                                            <div class="card" style=" width: 1030px; margin:1px;">
+                                                            <div class="card" style=" width: 1150px; margin:1px;">
                                                                 <div class="card-header card-styles">
                                                                     Perfil Inversión
                                                                 </div>
@@ -2324,7 +2352,7 @@
                                                                                 </div>
                                                                             </div>
                                                                         </div>
-                                                                        <div class="col-sm-3">
+                                                                        <!--div class="col-sm-3">
                                                                             <div class="dropdown">
                                                                                 <label
                                                                                     for="perfilamiento">Perfilamiento</label>
@@ -2337,7 +2365,7 @@
                                                                                     </select>
                                                                                 </div>
                                                                             </div>
-                                                                        </div>
+                                                                        </div-->
 
                                                                     </div>
                                                                     <hr>
@@ -2356,41 +2384,106 @@
                                                                 </div>
                                                                 <div class="card-body">
                                                                     <div class="row">
-                                                                        <div class="col-sm-2">
+                                                                        <div class="col-sm-3">
+                                                                            <div class="dropdown">
+                                                                                <div class="form-group">
+                                                                                    <label for="Banco_Id">Banco</label>
+                                                                                    <div class="form-group">
+                                                                                        <select
+                                                                                            class="form-control form-control-sm"
+                                                                                            id="" readonly>
+                                                                                            <option>022</option>
+                                                                                            <option>055</option>
+                                                                                        </select>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>                                                                            
+                                                                        </div>
+                                                                        <div class="col-sm-3">
+                                                                            <div class="dropdown">
+                                                                                <div class="form-group">
+                                                                                    <label for="Clasif_Cuenta_Banco_Id">Clasif. de Cuenta Bancaria</label>
+                                                                                    <div class="form-group">
+                                                                                        <select
+                                                                                            class="form-control form-control-sm"
+                                                                                            id="" readonly>
+                                                                                            <option>clas1</option>
+                                                                                            <option>clas2</option>
+                                                                                        </select>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>  
+                                                                        </div>
+                                                                        <div class="col-sm-3">
                                                                             <div class="form-group">
-                                                                                <label for="cve">Clave</label>
+                                                                                <label for="Numero_Cta">Numero de Cuenta</label>
                                                                                 <input type="text"
                                                                                     class="form-control form-control-sm"
-                                                                                    placeholder="clave" id="" readonly>
+                                                                                    placeholder="Numero de Cuenta"
+                                                                                    id="" readonly>
                                                                             </div>
                                                                         </div>
-                                                                        <div class="col-sm-2">
+                                                                        <div class="col-sm-3">
+                                                                            <div class="dropdown">
+                                                                                <div class="form-group">
+                                                                                    <label for="Divisa_Id">Divisa</label>
+                                                                                    <div class="form-group">
+                                                                                        <select
+                                                                                            class="form-control form-control-sm"
+                                                                                            id="" readonly>
+                                                                                            <option>EURO</option>
+                                                                                            <option>MXD</option>
+                                                                                        </select>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div> 
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="row">
+                                                                        <div class="col-sm-3">
                                                                             <div class="form-group">
-                                                                                <label for="cta-banc">Cuenta
-                                                                                    Bancaria</label>
+                                                                                <label for="Sucursal">Sucursal</label>
                                                                                 <input type="text"
                                                                                     class="form-control form-control-sm"
-                                                                                    placeholder="Cuenta Bancaria" id=""
-                                                                                    readonly>
+                                                                                    placeholder="Sucursal"
+                                                                                    id="" readonly>
                                                                             </div>
                                                                         </div>
                                                                         <div class="col-sm-3">
                                                                             <div class="form-group">
-                                                                                <p>Banco: </p>
-                                                                                <p>Sucursal: </p>
-                                                                                <p>Plaza: </p>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="row">
-                                                                        <div class="col-sm-4">
-                                                                            <div class="form-group">
-                                                                                <label for="nom-cot">Nombre del
-                                                                                    Cotitular </label>
+                                                                                <label for="Plaza">Plaza</label>
                                                                                 <input type="text"
                                                                                     class="form-control form-control-sm"
-                                                                                    placeholder="Nombre del Cotitular"
+                                                                                    placeholder="Plaza"
                                                                                     id="" readonly>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-sm-3">
+                                                                            <div class="form-group">
+                                                                                <label for="Cta_CLABE">Cta. Clabe</label>
+                                                                                <input type="text"
+                                                                                    class="form-control form-control-sm"
+                                                                                    placeholder="Cta. Clabe"
+                                                                                    id="" readonly>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-sm-3">
+                                                                                <label class="labels-styles"
+                                                                                for="forma-elec">Comprobante Dist. Contrato</label>
+                                                                            <div class="form-group">
+                                                                                <div
+                                                                                    class="form-check-inline labels-styles">
+                                                                                    <label class="form-check-label">
+                                                                                        SI <input type="radio"
+                                                                                            class="form-check-input"
+                                                                                            name="optradio">
+                                                                                    </label>
+                                                                                    <label class="form-check-label">
+                                                                                        NO <input type="radio"
+                                                                                            class="form-check-input"
+                                                                                            name="optradio">
+                                                                                    </label>
+                                                                                </div>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -2408,240 +2501,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <!-- TAP DE CUESTIONARIO-->
-                <!--div id="cuestionarios" class="container-fluid tab-pane fade">
-                    <div class="card-body">
-                        <div class="content-fluid">
-                            <h5>Cuestionario</h5>
-                            <div class="row">
-                                <div class="col-sm-2">
-                                    <div class="form-group">
-                                        <label for="ocu-cliente">Ocupacion Cliente</label>
-                                        <input type="text" class="form-control form-control-sm"
-                                            placeholder="Ocupacion cliente" id="" readonly>
-                                    </div>
-                                </div>
-                                <div class="col-sm-2">
-                                    <div class="form-group">
-                                        <label for="ocu-cliente">Ocupacion Cliente</label>
-                                        <input type="text" class="form-control form-control-sm"
-                                            placeholder="Ocupacion cliente" id="" readonly>
-                                    </div>
-                                </div>
-                                <div class="col-sm-2">
-                                    <div class="form-group">
-                                        <label for="empresa">Empresa</label>
-                                        <input type="text" class="form-control form-control-sm" placeholder="Empresa"
-                                            id="" readonly>
-                                    </div>
-                                </div>
-                                <div class="col-sm-3">
-                                    <div class="form-group">
-                                        <label for="act-giro">Actividad o Giro de la Empresa</label>
-                                        <input type="text" class="form-control form-control-sm"
-                                            placeholder="Actividad o Giro" id="" readonly>
-                                    </div>
-                                </div>
-                                <div class="col-sm-2">
-                                    <div class="form-group">
-                                        <label for="puesto">Puesto</label>
-                                        <input type="text" class="form-control form-control-sm" placeholder="puesto"
-                                            id="" readonly>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-sm-2">
-                                    <div class="form-group">
-                                        <label for="profesion">Profesion</label>
-                                        <input type="text" class="form-control form-control-sm" placeholder="" id=""
-                                            readonly>
-                                    </div>
-                                </div>
-                                <div class="col-sm-3">
-                                    <div class="form-group">
-                                        <label for="mento-men">Monto Estimado de Montos Mensuales</label>
-                                        <div class="form-group">
-                                            <select class="form-control form-control-sm" id="" readonly>
-                                                <option>1000</option>
-                                                <option>2000</option>
-                                                <option>3000</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-2">
-                                    <div class="form-group">
-                                        <label for="procedencia">Procedencia de Recursos</label>
-                                        <input type="text" class="form-control form-control-sm"
-                                            placeholder="procedencia" id="" readonly>
-                                    </div>
-                                </div>
-                                <div class="col-sm-2">
-                                    <div class="form-group">
-                                        <label for="tipo-tran">Tipo de Transacciones</label>
-                                        <div class="form-group">
-                                            <select class="form-control form-control-sm" id="" readonly>
-                                                <option>tran1</option>
-                                                <option>tran2</option>
-                                                <option>tran3</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-2">
-                                    <div class="form-group">
-                                        <label for="monto-est">Monto Estimado de Retiros</label>
-                                        <div class="form-group">
-                                            <select class="form-control form-control-sm" id="" readonly>
-                                                <option>Retiro1</option>
-                                                <option>REtiro2</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div class="row">
-                                <div class="col-sm-3">
-                                    <div class="form-group">
-                                        <label for="act-nom">Actua Nombre y cuenta propia</label>
-                                        <div class="form-group">
-                                            <select class="form-control form-control-sm" id="" readonly>
-                                                <option>nom1</option>
-                                                <option>nom2</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-3">
-                                    <div class="form-group">
-                                        <label for="indica-nom">Indica nombre tercero</label>
-                                        <input type="text" class="form-control form-control-sm"
-                                            placeholder="indica Nombre Tercero" id="" readonly>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="container-fluid" style="margin: 15px;">
-                                <div class="row">
-                                    <div class="form-group row">
-                                        <label for="">Verificó usted la información proporcionada por el Cliente en el
-                                            Contrato?</label>
-                                        <div class="col-sm-4">
-                                            <div class="form-check form-check-inline">
-                                                <input class="form-check-input" type="radio" name="inlineRadioOptions"
-                                                    id="1" value="option1">
-                                                <label class="form-check-label" for="">SI</label>
-                                            </div>
-                                            <div class="form-check form-check-inline">
-                                                <input class="form-check-input" type="radio" name="inlineRadioOptions"
-                                                    id="2" value="option1">
-                                                <label class="form-check-label" for="">NO</label>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="row">
-                                    <div class="form-group row">
-                                        <label for="verifica2">Verificó usted la procedencia de los fondos que se
-                                            invertirán en los productos y/o servicios de SURA</label>
-                                        <div class="col-sm-2">
-                                            <div class="form-check form-check-inline">
-                                                <input class="form-check-input" type="radio" name="inlineRadioOptions"
-                                                    id="3" value="option1">
-                                                <label class="form-check-label" for="inlineRadio3">SI</label>
-                                            </div>
-                                            <div class="form-check form-check-inline">
-                                                <input class="form-check-input" type="radio" name="inlineRadioOptions"
-                                                    id="4" value="option2">
-                                                <label class="form-check-label" for="">NO</label>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="row">
-                                    <div class="form-group row">
-                                        <label for="verifica3">Existe alguna razón comercial (diferente a los beneficios
-                                            ofrecidos de forma general) para que el cliente quiera adquiri
-                                            productos</label>
-                                        <div class="col-sm-2">
-                                            <div class="form-check form-check-inline">
-                                                <input class="form-check-input" type="radio" name="inlineRadioOptions"
-                                                    id="" value="option1">
-                                                <label class="form-check-label" for="inlineRadio3">SI</label>
-                                            </div>
-                                            <div class="form-check form-check-inline">
-                                                <input class="form-check-input" type="radio" name="inlineRadioOptions"
-                                                    id="" value="option2">
-                                                <label class="form-check-label" for="">NO</label>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="row">
-                                    <div class="form-group row">
-                                        <label for="verifica4">El cliente ha solicitado el manejo de sus negocios con un
-                                            niverl de confidencialidad demsedido, o se muestra reticente a proporcionar
-                                            la información requerida?</label>
-                                        <div class="col-sm-2">
-                                            <div class="form-check form-check-inline">
-                                                <input class="form-check-input" type="radio" name="inlineRadioOptions"
-                                                    id="" value="option1">
-                                                <label class="form-check-label" for="inlineRadio3">SI</label>
-                                            </div>
-                                            <div class="form-check form-check-inline">
-                                                <input class="form-check-input" type="radio" name="inlineRadioOptions"
-                                                    id="" value="option2">
-                                                <label class="form-check-label" for="">NO</label>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="row">
-                                    <div class="form-group row">
-                                        <label for="verifica5">Conoce usted algún tipo de información pública que
-                                            sugiera factores agravantes de riesgo sobre el cliente?</label>
-                                        <div class="col-sm-2">
-                                            <div class="form-check form-check-inline">
-                                                <input class="form-check-input" type="radio" name="inlineRadioOptions"
-                                                    id="" value="option1">
-                                                <label class="form-check-label" for="inlineRadio3">SI</label>
-                                            </div>
-                                            <div class="form-check form-check-inline">
-                                                <input class="form-check-input" type="radio" name="inlineRadioOptions"
-                                                    id="" value="option2">
-                                                <label class="form-check-label" for="">NO</label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="form-group row">
-                                        <label for="verifica6">En agluna ocasión el cliente ha estado involucrado en un
-                                            caso de lavado de dinero o financiamiento o terrorismo?</label>
-                                        <div class="col-sm-2">
-                                            <div class="form-check form-check-inline">
-                                                <input class="form-check-input" type="radio" name="inlineRadioOptions"
-                                                    id="" value="option1">
-                                                <label class="form-check-label" for="inlineRadio3">SI</label>
-                                            </div>
-                                            <div class="form-check form-check-inline">
-                                                <input class="form-check-input" type="radio" name="inlineRadioOptions"
-                                                    id="" value="option2">
-                                                <label class="form-check-label" for="">NO</label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div-->
+                </div>               
                 <!-- TAP DE DOCUMENTOS-->
                 <div id="Documentos" class="container-fluid tab-pane fade">
 
